@@ -1,12 +1,13 @@
 public class Rating {
     int id;
     int rating;
-    Produtor produtor;
+    
+    
 
-    public Rating(int id, int rating, Produtor produtor) {
+    public Rating(int id, int rating) {
         this.id = id;
         this.rating = rating;
-        this.produtor = produtor;
+        
     }
 
     public int getId() {
@@ -25,11 +26,4 @@ public class Rating {
         this.rating = rating;
     }
 
-    public Produtor getProdutor() {
-        return produtor;
-    }
-
-    public void setProdutor(Produtor produtor) {
-        this.produtor = produtor;
-    }
-}
+   }
